@@ -1,0 +1,14 @@
+.introduction {
+  max-width: 760px;
+  margin: 0 auto;
+
+  .button { width: 100%; }
+}
+
+@media #{$medium-up} {
+  .introduction {
+    text-align: center;
+
+    .button { width: 300px; }
+  }
+}

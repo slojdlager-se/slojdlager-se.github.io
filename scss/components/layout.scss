@@ -1,0 +1,11 @@
+body > section {
+  padding: 60px 0;
+
+  &.highlight {
+    background: #fff;
+  }
+}
+
+.row + .row {
+  margin-top: 40px;
+}
