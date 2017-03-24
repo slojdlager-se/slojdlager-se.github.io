@@ -8,10 +8,10 @@ header {
   background-size: cover;
   background-position: center center;
 
-  h1, h2 {
+  h1, h2, h3 {
     color: #fff;
     line-height: 1;
-    text-shadow: 0 0 20px rgba(0,0,0,0.4);
+    text-shadow: 0 0 10px rgba(0,0,0,0.6);
   }
 
   h1 {
@@ -20,6 +20,10 @@ header {
   }
   h2 {
     font-weight: normal;
+  }
+  h3 {
+    margin-top: 0.75rem;
+    font-weight: lighter;
   }
 }
 
